@@ -1,0 +1,38 @@
+#mod:hover{
+    color: #ff7200 !important;
+}
+#home:hover{
+    border-bottom: 2px solid #ff7200;
+}
+
+#lorem:hover{
+    color: #ff7200;
+    padding-left: 3%;
+}
+
+#dd:hover{
+    padding-left: 18%;
+    color: #ff7200;
+}
+
+#pic:hover{
+    transform: scale(1.1,1.0);
+    transition-duration: 0.9s;
+}
+
+#doc:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 0.9s;
+}
+
+#im:hover{
+    transform: rotateY(180deg);
+}
+
+#img{
+    transition-property: transform;
+    transition-duration: 1s;
+}
+#img:hover{
+    transform: rotateY(180deg);
+}

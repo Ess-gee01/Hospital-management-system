@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="myproject.css">
+    <link rel="icon" href="image/icons8_E_52px_3.png">
+    <link rel="stylesheet" href="bootstrap-4.5.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="bootstrap-4.5.2/site/docs/4.5/assets/js/vendor/jquery.slim.min.js"></script>
+    <script src="bootstrap-4.5.2/dist/js/bootstrap.js"></script>
+    <script src="bootstrap-4.5.2/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+                             <!-- MODAL BOX -->
+                     <div class="modal fade" data-backdrop="static" id="registerModal">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Sign In Here</h5>
+                                    <button class="close" data-dismiss="modal">
+                                        <span>&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                   <div class="h3">
+                                       <a href="staffSignIn.html" id="mod" style="color: #013159; text-decoration: none;">Staffs</a>
+                                   </div>
+                                   <div class="h3">
+                                       <a href="learnerSignIn.html" id="mod" style="color: #013159; text-decoration: none;">Learners</a>
+                                   </div>
+                                   <div class="h3">
+                                       <a href="patientSignIn.html" id="mod" style="color: #013159;">Patients</a>
+                                   </div>
+                                   
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                 <!-- NAV -->
+                    <nav class="navbar navbar-light bg-light navbar-expand-sm sticky-top">
+                        <a href="" class="nav-brand ml-5"> <img src="image/icons8_E_52px_3.png" alt=""> 
+                            <a href="" class="h5" style="color: #013159; margin-right: 25%; text-decoration: none;">ESS-GEE <br> Health Care</a>
+                        </a>
+                        <button class="navbar-toggler" data-target="#mainNav" data-toggle="collapse">
+                            <span class="navbar-toggler-icon">
+                
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="mainNav">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="navbar-item active">
+                                    <a href="myproject.html" id="" class="nav-link text-dark  h6">Home</a>
+                                </li>
+                                <li class="navbar-item ml-2">
+                                    <a href="myproject.html" id="home" class="nav-link h6">Our Service</a>
+                                </li>
+                                <li class="navbar-item ml-2">
+                                    <a href="#about" id="home" class="nav-link  h6">About us</a>
+                                </li>
+                               
+                                <li class="navbar-item dropdown ml-2">
+                                    <a href="" id="home" class="nav-link  h6 dropdown-toggle" data-toggle="dropdown">Department</a>
+                                    <div class="dropdown-menu">
+                                        <a href="" id="dd" class="dropdown-item mb-2">Dentist Department</a>
+                                        <a href="" id="dd" class="dropdown-item mb-2">Chaplaincy Department</a>
+                                        <a href="" id="dd" class="dropdown-item mb-2">X-ray Department</a>
+                                        <a href="" id="dd" class="dropdown-item mb-2">Burns Department</a>
+                                        <a href="" id="dd" class="dropdown-item mb-2">Cardiology Department</a>
+                                        <a href="" id="dd" class="dropdown-item mb-2">Surgery Department</a>
+                                       
+                                    </div>
+                                </li>
+                                <li class="navbar-item ml-2">
+                                    <a href="#contact" id="home" class="nav-link  h6">Contacts</a>
+                                </li>
+                                <button class="btn ml-5" data-toggle="modal" data-target="#registerModal" style="background-color: #ff7200;">Sign In</button>
+                                 <a href="signup.html"><button class="btn btn-md ml-3" style="background-color: #ff7200;">Sign Up</button></a>
+                            </ul>
+                            
+                        </div>
+                       
+                    </nav>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-3 text-center" style="background-color: #013159; padding-top: 8%; height: 89vh;">
+                                <img src="image/449E3C8A-66B9-486D-95E0-DE72CC21FF7BL0001.jpeg" class="" style="height: 150px; width: 150px; border-radius: 50%;" alt="">
+                                <h4 class="pt-3" style="color: #ff7200;"><img class="" style="width: 4%; margin-top: -3%;" src="image/icons8_Filled_Circle_50px.png" alt=""> OLUWASEGUN ABAYOMI</h4>
+                                <h4 class="pb-3" style="color: #ff7200;">Learner Id: Ls345678</h4>
+                                <h6 class="pb-2" style="color: #ff7200;">Status: Online</h6>
+                                <h6 class="pb-2" style="color: #ff7200;">Last Login: 1<sup>st</sup>October 2020</h6>
+                                <h6 class="pb-2" style="color: #ff7200;">Registered Date: 29<sup>th</sup>Septemner 2020</h6>
+                                <a href="learnerSignIn.html"><button class="btn mt-4 text-white" style="background-color: #ff7200; color: #013159;">Log-Out</button></a>
+                            </div>
+                            <div class="col-md-7">
+                                <h4 class="ml-5 mt-4" style="color: #013159;">Personal Information</h4>
+                                <h6 style="margin-left: 20%;">Surname : Oluwasegun</h6>
+                                <h6 style="margin-left: 20%;">Firstname : Abayomi</h6>
+                                <h6 style="margin-left: 20%;">Lastname : Ess-Gee</h6>
+                                <h6 style="margin-left: 20%;">Learner Id : Ls345678</h6>
+                                <h6 style="margin-left: 20%;">Gender : Male</h6>
+                                <h6 style="margin-left: 20%;">Date Of Birth : 02-October-2012</h6>
+                                <h4 class="ml-5 mt-5" style="color: #013159;">Contact Information</h4>
+                                <h6 style="margin-left: 20%;">Email : ayanwalesegun55@gmail.com</h6>
+                                <h6 style="margin-left: 20%;">Phone : +234-9039191010</h6>
+                                <h6 style="margin-left: 20%;">Address : Oke-Owode area,Ile-ewe,Ogbomoso</h6>
+                                <h4 class="ml-5 mt-5" style="color: #013159;">Location</h4>
+                                <h6 style="margin-left: 20%;">Home-Address : Oke-Owode area,Ile-ewe,Ogbomoso</h6>
+                                <h6 style="margin-left: 20%;">Office-Address : Ogbomoso,Oyo State Nigeria</h6>
+                                <h6 style="margin-left: 20%;">Home-Address : Oke-Owode area,Ile-ewe,Ogbomoso</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                
+</body>
+</html> 

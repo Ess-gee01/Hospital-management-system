@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project.com</title>
+    <link rel="stylesheet" href="myproject.css">
+    <link rel="icon" href="image/icons8_E_52px_3.png">
+    <link rel="stylesheet" href="bootstrap-4.5.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="bootstrap-4.5.2/site/docs/4.5/assets/js/vendor/jquery.slim.min.js"></script>
+    <script src="bootstrap-4.5.2/dist/js/bootstrap.js"></script>
+    <script src="bootstrap-4.5.2/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+                 <!-- MODAL BOX -->
+    <div class="modal fade" data-backdrop="static" id="registerModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign In Here</h5>
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                   <div class="h3">
+                       <a href="staffSignIn.html" id="mod" style="color: #013159; text-decoration: none;">Staffs</a>
+                   </div>
+                   <div class="h3">
+                       <a href="learnerSignIn.html" id="mod" style="color: #013159; text-decoration: none;">Learners</a>
+                   </div>
+                   <div class="h3">
+                       <a href="patientSignIn.html" id="mod" style="color: #013159;">Patients</a>
+                   </div>
+                   
+                    </form>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+                 <!-- NAV -->
+    <nav class="navbar navbar-light bg-light navbar-expand-sm sticky-top">
+        <a href="" class="nav-brand ml-5"> <img src="image/icons8_E_52px_3.png" alt=""> 
+            <a href="" class="h5" style="color: #013159; margin-right: 25%; text-decoration: none;">ESS-GEE <br> Health Care</a>
+        </a>
+        <button class="navbar-toggler" data-target="#mainNav" data-toggle="collapse">
+            <span class="navbar-toggler-icon">
+
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="navbar-item active">
+                    <a href="" id="home" class="nav-link text-dark  h6">Home</a>
+                </li>
+                <li class="navbar-item ml-2">
+                    <a href="#service" id="home" class="nav-link h6">Our Service</a>
+                </li>
+                <li class="navbar-item ml-2">
+                    <a href="#about" id="home" class="nav-link  h6">About us</a>
+                </li>
+               
+                <li class="navbar-item dropdown ml-2">
+                    <a href="" id="home" class="nav-link  h6 dropdown-toggle" data-toggle="dropdown">Department</a>
+                    <div class="dropdown-menu">
+                        <a href="" id="dd" class="dropdown-item mb-2">Dentist Department</a>
+                        <a href="" id="dd" class="dropdown-item mb-2">Chaplaincy Department</a>
+                        <a href="" id="dd" class="dropdown-item mb-2">X-ray Department</a>
+                        <a href="" id="dd" class="dropdown-item mb-2">Burns Department</a>
+                        <a href="" id="dd" class="dropdown-item mb-2">Cardiology Department</a>
+                        <a href="" id="dd" class="dropdown-item mb-2">Surgery Department</a>
+                       
+                    </div>
+                </li>
+                <li class="navbar-item ml-2">
+                    <a href="#contact" id="home" class="nav-link  h6">Contacts</a>
+                </li>
+                <button class="btn ml-5" data-toggle="modal" data-target="#registerModal" style="background-color: #ff7200;">Sign In</button>
+                 <a href="signup.html"><button class="btn btn-md ml-3" style="background-color: #ff7200;">Sign Up</button></a>
+            </ul>
+            
+        </div>
+       
+    </nav>
+            <!-- MAIN-BODY -->
+    <div class="container-fluid" style="background-image: url(image/insta-doctors-collaborating.jpg); background-size: contain; background-repeat: no-repeat; width: 100%;">
+        <div class="row">
+            <div class=" col-12 pt-5" style="padding-left: 15%; margin-top: 5% ;">
+                <span class="h1">Welcome to</span> <br> <span class="h1">ESS-GEE Health Care!</span>
+            </div>
+            <div class=" mt-3 h3" style="padding-left: 15%;">
+                The Best Health Care In The City <br> Expect you
+                <div class="mt-5 text-center"><button class="btn text-white btn-lg pl-3" style="background-color: #013159;">Get Started</button></div> 
+            </div>
+        </div>
+       <div class="container">
+        <div class=" row card-deck" style="margin-top: 10%;">
+            <div class=" card col-md-3 shadow" id="doc">
+                <div class="row">
+                    <div class="col-12 text-center h4 pt-3" style="color: #013159;">
+                        Our Doctor
+                        <hr>
+                        <div class="col-12 text-center h6" style="color: #013159;">
+                            Ess-Gee's Team Of Qualified And Experience Doctors is Always Ready To Help You Anytime Anyday<br> <br>
+                            <button class="btn" style="background-color: #ff7200;">Get A Doctor</button>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class=" card col-md-3 shadow"id="doc">
+                <div class="col-12 text-center h4 pt-3" style="color: #013159;">
+                    Emergency Care
+                    <hr>
+                    <div class="col-12 text-center h6" style="color: #013159;">
+                        We Are Always Ready To Help When You Need Help! Our Emergency Team Is Here For You<br> <br>
+                        <button class="btn" style="background-color: #ff7200;">Read More</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class=" card col-md-3 shadow" id="doc">
+                <div class="col-12 text-center h4 pt-3" style="color: #013159;">
+                    24 Hours Service
+                    <hr>
+                    <div class="col-12 text-center h6" style="color: #013159;">
+                        Anytime You Need Help, You May Contact Us And Our We Will Make An Appointment For You <br> <br>
+                         <button class="btn" style="background-color: #ff7200;">Make Appointment</button>
+                     </div>
+                </div>
+               
+            </div>
+            <div class=" card col-md-3 shadow"id="doc">
+                <div class="col-12 text-center h4 pt-3" style="color: #013159;">
+                    Location
+                    <hr>
+                    <div class="col-12 text-center h6" style="color: #013159;">
+                        Our Clinic Is Situated Downtown And Is Always Available For You Anytime We Are Ready<br> <br>
+                        <button class="btn" style="background-color: #ff7200;">Get Direction</button>
+                    </div>
+                </div>
+               
+            </div>
+
+        </div>
+       </div>
+    </div>
+                 <!-- OUR SERVICE -->
+    <div class="container" style="margin-top: 5%;" id="service">
+        <div class="row">
+            <div class="col-12 text-center h1" style="color: #013159; margin-top: 6%;">
+                Our Services
+            </div>
+            <div class="col-12 mb-5">
+                <div class="row card-deck">
+                    <div class="card col-md-4 border-0 mt-5" style="height: 270px;">
+                        <img id="im" src="image/Capture3.PNG" style="height: 100%;;" alt="">
+                        <h5 id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Di</h5>
+                    </div>
+                    <div class="card col-md-4 border-0 mt-5" style="height: 270px;">
+                        <img id="im" src="image/side-view-doctor-treating-patient-teeth-modern-dental-clinic-side-view-doctor-treating-patient-teeth-modern-dental-165225370.jpg" style="height: 100%;" alt="">
+                        <h5 id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Di</h5>
+                    </div>
+                    <div class="card col-md-4 border-0 mt-5" style="height: 270px;">
+                        <img id="im" src="image/Doctor_Patient_Leg_1200x628-facebook.jpg"style="height: 100%;" alt="">
+                        <h5 id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Di</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="row card-deck mt-5">
+                    <div class="card col-md-4 border-0 mt-5" style="height: 270px;">
+                        <img id="im" src="image/healthy-contact-lens_456px.jpg" style="height: 100%;" alt="">
+                        <h5 id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Di</h5>
+                    </div>
+                    <div class="card col-md-4 border-0 mt-5" style="height: 270px;">
+                        <img id="im" src="image/Capture4.PNG" style="height: 100%;" alt="">
+                        <h5 id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Di</h5>
+                    </div>
+                    <div class="card col-md-4 border-0 mt-5" style="height: 270px;">
+                        <img id="im" src="image/3-hero_image.jpg__992x558_q85_crop-smart_subsampling-2_upscale.jpg" style="height: 100%;" alt="">
+                        <h5 id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Di</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+             <!-- ABOUT US -->
+    <div class="container" style="margin-top: 5%;" id="about">
+        <div class="row">
+            <div class=" col-12 text-center h1 " style="color: #013159; margin-top: 6%;">
+                About Us
+            </div>
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-md-6 h5 mt-4" style="line-height: 2.0 ; color: #013159;">
+                        ESS-GEE Health care! is a company with well and equiped materials to help the customers with their health, and we are always ready for our customer anytime anyday with well trained and experienced doctors, nurses and co. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quo consequuntur vel perspiciatis quod magnam voluptas, repellendus excepturi ea ducimus cupiditate voluptates facilis maiores assumenda at minima a, perferendis illo?
+                        <br>
+                        <button class="btn mt-5" style="background-color: #ff7200; margin-left: 20%;">More About Us</button>
+                    </div>
+                    
+                    <div class="col-md-6 mt-4">
+                        <img id="pic" style="width: 100%; border-radius: 5%;" src="image/side-view-doctor-treating-patient-teeth-modern-dental-clinic-side-view-doctor-treating-patient-teeth-modern-dental-165225370.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <!-- OUR TEAM -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+
+            </div>
+        </div>
+    </div>
+
+            <!-- TESTIMONIAL -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <div class=" mt-5">
+                    <h1 class="text-center" style="color: #013159;">Testimonials</h1>
+                    <h6 class="text-center pt-5 shadow bg-light mb-5 pb-4" style="color: #013159;" >
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus aliquam minima temporibus facilis optio quaerat molestiae ad vitae nam deleniti reprehenderit similique perferendis doloribus inventore corrupti qui numquam, esse deserunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste earum reprehenderit eligendi natus culpa! Voluptatum illum porro ipsam mollitia expedita veniam eum fugiat, ut dolore sunt quisquam laboriosam! Recusandae, beatae.
+                        <br><br><span class="h4" style="color: #ff7200;">Laycon Nnegi</span><br><br>Software Engineer at<span class="" style="color: #ff7200;"> Ess-Gee code</span>
+                    </h6>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="">
+                    <h6 class="text-center shadow bg-light pt-5 mb-5 pb-4">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus aliquam minima temporibus facilis optio quaerat molestiae ad vitae nam deleniti reprehenderit similique perferendis doloribus inventore corrupti qui numquam, esse deserunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste earum reprehenderit eligendi natus culpa! Voluptatum illum porro ipsam mollitia expedita veniam eum fugiat, ut dolore sunt quisquam laboriosam! Recusandae, beatae.
+                        <br><br><span class="h4" style="color: #ff7200;">Ka3na Hikram</span><br><br>Data scientist at<span class=""style="color: #ff7200;"> Ess-Gee code</span>
+                    </h6>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="">
+                    <h6 class="text-center shadow bg-light pt-5 mb-5 pb-4">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus aliquam minima temporibus facilis optio quaerat molestiae ad vitae nam deleniti reprehenderit similique perferendis doloribus inventore corrupti qui numquam, esse deserunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste earum reprehenderit eligendi natus culpa! Voluptatum illum porro ipsam mollitia expedita veniam eum fugiat, ut dolore sunt quisquam laboriosam! Recusandae, beatae.
+                        <br><br><span class="h4" style="color: #ff7200;">Ka3na Hikram</span><br><br>Data scientist at<span class=""style="color: #ff7200;"> Ess-Gee code</span>
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+             <!-- CONTACT US -->
+    <div class="container" id="contact">
+        <div class="row mt-5">
+            <div class="col-12 mt text-center h1" style="margin-top: 8%;">
+                Get In Touch
+            </div>
+            <div class="col-12">
+                <textarea class="pl-3 pt-2" name="" id="" cols="80" rows="10" style="width: 70%;" placeholder="Enter Message"></textarea>
+            </div>
+            <div class="col-12">
+               <div class="row">
+                   <div class="col-6">
+                    <form action="" class="mt-3">
+                        <div class="form text-center">
+                            <div class="form-group ">
+                                <input type="text" class="form-control" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group mt-4">
+                                <input type="text" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="form-group mt-4">
+                                <input type="text" class="form-control" placeholder="Enter subject">
+                            </div>
+                        </div>
+                    </form>
+                   </div>
+               </div>
+            </div>
+            <div class="col-6 mt-3 text-center">
+                <button class="btn btn-lg text-white" style="background-color: #013159;">Send</button>
+            </div>
+        </div>
+    </div>
+             <!-- FOOTER  -->
+    <div class="container-fluid">
+        <div class="row  p-5" style="margin-top: 5%; background-color: #013159;">
+            <div class="container">
+                <div class="row">
+                    <a href="" class="ml-5"> <img src="image/icons8_E_52px_3.png" alt=""> 
+                        <a href="" class="h5" style="color: white; margin-right: 25%; text-decoration: none;">ESS-GEE <br>Health Care</a>
+                    </a>
+                  <div class="col" style="margin-left: 20%;">
+                    <div class="row">
+                        <div class="col-2">
+                          <a href=""> <img src="image/icons8_Facebook_F_48px_1.png" id="img" style="width: 70%;" alt=""></a>
+                        </div>
+                        <div class="col-2">
+                          <a href=""> <img src="image/icons8_Instagram_64px.png" id="img" style="width: 70%;" alt=""></a>
+                        </div>
+                        <div class="col-2">
+                          <a href=""> <img src="image/icons8_Twitter_64px_1.png" id="img" style="width: 70%;" alt=""></a>
+                        </div>
+                       
+                        <div class="col-2">
+                            <a href=""> <img src="image/icons8_WhatsApp_64px.png" id="img" style="width: 70%;" alt=""></a>
+                        </div>
+                     </div>
+                  </div>
+                </div>
+               
+            </div>
+    
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="h6" style="color: #ff7200;">Office Address</div>
+                        <p class="text-white">Ess-Gee health care<br>Behind Owode police station<Br>Ile-ewe Ogbomoso Oyo State <br>Nigeria</Br></p>
+                    </div>
+                    <div class="col-sm-6 col-md-3 text-white">
+                        <div class="">
+                            <h6 class=""style="color: #ff7200;">Open Hours</h6>
+                            <p class="text-white">Monday 24hours<br>Tuesday 24hours<Br>Saturday 24hours<br>Sunday 24hours</Br></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 text-white">
+                        <div class="">
+                            <h6 class=""style="color: #ff7200;">Contact</h6>
+                            <p class="text-white">+234-9039191010<br>+234-9030814741<Br>ayanwalesegun55@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <hr style="background-color: #013159;">
+                <h5 class="text-center mt-5" style="color: #ff7200; margin-bottom: 0;">Copyright ©2020 All rights reserved | This template is made by <span><a href="" class="text-white">Ess-Gee Code</a></span></h5>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

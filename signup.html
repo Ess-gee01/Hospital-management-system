@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signin.css">
+    <link rel="icon" href="image/icons8_E_52px_3.png">
+    <link rel="stylesheet" href="bootstrap-4.5.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="bootstrap-4.5.2/site/docs/4.5/assets/js/vendor/jquery.slim.min.js"></script>
+    <script src="bootstrap-4.5.2/dist/js/bootstrap.js"></script>
+    <script src="bootstrap-4.5.2/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- MODAL BOX -->
+    <div class="modal fade" data-backdrop="static" id="registerModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign In Here</h5>
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                   <div class="h3">
+                       <a href="signin.html" id="mod" style="color: #013159; text-decoration: none;">Staffs</a>
+                   </div>
+                   <div class="h3">
+                       <a href="patient.html" id="mod" style="color: #013159; text-decoration: none;">Learners</a>
+                   </div>
+                   <div class="h3">
+                       <a href="student.html" id="mod" style="color: #013159; text">Patients</a>
+                   </div>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- NAV -->
+     <nav class="navbar navbar-light bg-light navbar-expand-sm sticky-top">
+        <a href="" class="nav-brand ml-5"> <img src="image/icons8_E_52px_3.png" alt=""> 
+            <a href="" class="h5" style="color: #013159; margin-right: 25%; text-decoration: none;">ESS-GEE <br> Health Care</a>
+        </a>
+        <button class="navbar-toggler" data-target="#mainNav" data-toggle="collapse">
+            <span class="navbar-toggler-icon">
+
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="navbar-item">
+                    <a href="myproject.html" id="home" class="nav-link active h6">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#service" id="home" class="nav-link ml-3 h6">Our Service</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#about" id="home" class="nav-link ml-3 h6">About us</a>
+                </li>
+               
+                <li class="navbar-item dropdown">
+                    <a href="" id="home" class="nav-link ml-3 h6 dropdown-toggle" data-toggle="dropdown">Department</a>
+                    <div class="dropdown-menu">
+                        <a href="" class="dropdown-item mb-2">Dentist Department</a>
+                        <a href="" class="dropdown-item mb-2">Chemotheraphy Department</a>
+                        <a href="" class="dropdown-item mb-2">Dentist Department</a>
+                        <a href="" class="dropdown-item mb-2">Dentist Department</a>
+                        <a href="" class="dropdown-item mb-2">Dentist Department</a>
+                       
+                    </div>
+                </li>
+               
+                <li class="navbar-item">
+                    <a href="" id="home" class="nav-link ml-3 h6">Contacts</a>
+                </li>
+                <button class="btn ml-3 text-white" data-toggle="modal" data-target="#registerModal" style="background-color: #ff7200;">Sign In</button>
+            </ul>
+        </div>
+       
+    </nav>
+    <div class="container-fluid" style="background-image: url(image/insta-doctors-collaborating.jpg); background-size: cover; background-repeat: no-repeat; width: 100%;">
+        <div class="row">
+            <div class=" col-12 pt-5" style="padding-left: 15%; margin-top: 5% ;">
+                <span class="h1">Welcome to</span> <br> <span class="h1">ESS-GEE Health Care!</span>
+            </div>
+            <div class=" mt-3 h3" style="padding-left: 15%;">
+                The Best Health Care In The City <br> Expect you
+                <div class="mt-5 text-center"><button class="btn text-white btn-lg pl-3" style="background-color: #013159; margin-bottom: 10%;">Get Started</button></div> 
+            </div>
+        </div>
+    </div>
+    
+   <div class="container">
+       <div class="row">
+           <div class="col-6">
+                <div class="text-center" style="margin-top: 5%;">
+                    <h5 class="modal-title h1" style="color: #013159;">Sign Up Here</h5>
+                </div>
+           </div>
+           <div class="col-12">
+               <div class="row">
+                <div class="col-6 mt-5">
+                    <form action="" method="GET" enctype="multipart/form-data">
+                         <div class="form">
+                             <label class="h6" style="color: #013159;" for="">Surname   </label>
+                             <input type="text" class="form-control pl-3" placeholder="Nnegi">
+                         </div>
+                        <div class="form-row">
+                            <div class="form col">
+                                <label for="" style="color: #013159;" class="h6 mt-4">Firstname</label>
+                                <input type="text" class="form-control" placeholder="Laycon">
+                            </div>
+                            <div class="form col">
+                               <label style="color: #013159;" for="" class="h6 mt-4">Lastname</label>
+                               <input type="text" class="form-control" placeholder="Chinedu">
+                           </div>
+                        </div>
+                        <div class="form">
+                            <label style="color: #013159;" for="" class="h6 mt-4">Email / Phone-number</label>
+                            <input type="text" class="form-control" placeholder="example@gmail.com">
+                        </div>
+                        <div class="form">
+                            <label style="color: #013159;" for="" class="h6 mt-4"> Re-Enter email / Phone-number</label>
+                            <input type="text" class="form-control" placeholder="example@gmail.com">
+                        </div>
+                        <div class="form">
+                            <label style="color: #013159;" for="" class="h6 mt-4">Password</label>
+                            <input type="text" class="form-control" placeholder="example1234">
+                        </div>
+                        
+                    </form>
+                    <div class="text-center mt-5">
+                        <button class="btn btn-lg ml-5 text-white" style="background-color: #013159">Sign Up</button>
+                    </div>
+                </div>
+                <div class="col-6">
+
+                </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+          <!-- FOOTER  -->
+          <div class="container-fluid">
+            <div class="row  p-5" style="margin-top: 5%; background-color: #013159;">
+                <div class="container">
+                    <div class="row">
+                        <a href="" class="ml-5"> <img src="image/icons8_E_52px_3.png" alt=""> 
+                            <a href="" class="h5" style="color: white; margin-right: 25%; text-decoration: none;">ESS-GEE <br>Health Care</a>
+                        </a>
+                      <div class="col" style="margin-left: 20%;">
+                        <div class="row">
+                            <div class="col-2">
+                              <a href=""> <img src="image/icons8_Facebook_F_48px_1.png" id="img" style="width: 70%;" alt=""></a>
+                            </div>
+                            <div class="col-2">
+                              <a href=""> <img src="image/icons8_Instagram_64px.png" id="img" style="width: 70%;" alt=""></a>
+                            </div>
+                            <div class="col-2">
+                              <a href=""> <img src="image/icons8_Twitter_64px_1.png" id="img" style="width: 70%;" alt=""></a>
+                            </div>
+                           
+                            <div class="col-2">
+                                <a href=""> <img src="image/icons8_WhatsApp_64px.png" id="img" style="width: 70%;" alt=""></a>
+                            </div>
+                         </div>
+                      </div>
+                    </div>
+                   
+                </div>
+        
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="h6" style="color: #ff7200;">Office Address</div>
+                            <p class="text-white">SQi college of Ict, Old ilorin road <br>Opposite yoaco Filling Station <Br>Yoaco Ogbomoso Oyo State <br>Nigeria</Br></p>
+                        </div>
+                        <div class="col-sm-6 col-md-3 text-white">
+                            <div class="">
+                                <h6 class=""style="color: #ff7200;">Open Hours</h6>
+                                <p class="text-white">Monday 11:00am-7:00pm <br>Tuesday-Friday11:00am-8:00pm<Br>Saturday 10:00am-6:00pm <br>Sunday 11:00am-6:00pm</Br></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 text-white">
+                            <div class="">
+                                <h6 class=""style="color: #ff7200;">Contact</h6>
+                                <p class="text-white">+234-9039191010<br>+234-9030814741<Br>+234-9039191010</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="text-center mt-5" style="color: #ff7200; margin-bottom: 0;">Copyright ©2020 All rights reserved | This template is made by <span><a href="" class="text-white">Ess-Gee Code</a></span></h5>
+                </div>
+            </div>
+        </div>
+   
+</body>
+</html>
